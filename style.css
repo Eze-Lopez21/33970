@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=Prompt:wght@300&display=swap");
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Prompt", sans-serif;
+}
+.main__contacto {
+    background-color: #ff0000;
+    width: 100%;
+    min-height: 800px;
+    background-image: url(../assets/images/layered-waves-haikei.svg);
+    background-position: center;
+    background-size: cover;
+}
+.main__contacto .main__contacto--title {
+    color: #000000;
+    font-size: 40px;
+    margin: 30px;
+    text-align: center;
+}
+.main__contacto .main__contacto--title:hover {
+    color: #dfd6cc;
+}
+.main__contacto .main__contacto--form, .main__contacto .main__contacto--map {
+    background-color: #ffa500;
+    border-radius: 20px;
+}
+.main__contacto .main__contacto--form .main__contacto--subtitulo, .main__contacto .main__contacto--map .main__contacto--subtitulo, .main__contacto .main__contacto--form .main__contacto--subtitulo2, .main__contacto .main__contacto--map .main__contacto--subtitulo2 {
+    font-size: 25px;
+    font-weight: 600;
+    text-align: center;
+}
+.main__contacto .main__contacto--form .main__contacto--subtitulo2, .main__contacto .main__contacto--map .main__contacto--subtitulo2 {
+    margin: 20px;
+}
+.main__contacto .main__contacto--form label, .main__contacto .main__contacto--map label {
+    padding: 0;
+    margin: 0;
+    font-weight: 600;
+}
+.main__contacto .main__contacto--form input, .main__contacto .main__contacto--map input {
+    margin-bottom: 10px;
+}
+.main__contacto .main__contacto--form .main__contacto--checkbox, .main__contacto .main__contacto--map .main__contacto--checkbox {
+    margin-bottom: 5px;
+}
+.main__contacto .main__contacto--form .butt, .main__contacto .main__contacto--map .butt {
+    margin-left: 100px;
+    margin-top: 10px;
+}
+.div__boton{
+    text-align: center;
+    justify-content: center;
+}
+.main__contacto .main__contacto--map {
+    height: 600px;
+}
