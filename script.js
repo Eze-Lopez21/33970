@@ -19,6 +19,7 @@ if(localStorage.getItem('consultas')) {
 const form = document.getElementById("main__form")
 const botonConsultas = document.getElementById("boton__consultas")
 const zonaConsultas = document.getElementById("zona__consultas")
+const mainButton = document.getElementsByClassName("main__button")
 
 form.addEventListener('submit', (e) => {
     e.preventDefault()
@@ -65,3 +66,20 @@ boton__consultas.addEventListener('click', () => {
         })
     })
 })
+
+//Notificacion toastify
+for(let i = 0; i < mainButton.length; i++) {
+    mainButton[i].addEventListener('click', () => {
+        Toastify({
+        text: "Consulta guardada",
+        duration: 3000,
+        close: true,
+        gravity: "top",
+        position: "center",
+        stopOnFocus: true,
+        style: {
+            background: "linear-gradient(to right, #0ca17f, #2bab47)",
+        },
+        }).showToast();
+    })
+}
