@@ -1,0 +1,26 @@
+[
+    {
+        "nombre": "Hamburguesa Simple",
+        "precio": 300,
+        "descripcion": "El sabor de la carne 100% vacuna más deliciosa, acompañado del pan más esponjoso, kétchup, mostaza y cebolla triturada.",
+        "img": "../img/ham-simple.jpg"
+    },
+    {
+        "nombre": "Hamburguesa Completa",
+        "precio": 400,
+        "descripcion": "Quizás sean las dos hamburguesas de carne 100% vacuna con esa salsa especial y queso derretido, el toque de cebolla y la frescura de la lechuga o el crocante del pepino, los responsables de ese sabor único.",
+        "img": "../img/ham-completa.jpg"
+    },
+    {
+        "nombre": "Hamburguesa Extra Bacon",
+        "precio": 450,
+        "descripcion": "¡NUEVO PAN! Doble carne, inigualable queso cheddar, cebolla, kétchup y mostaza, y el increíble ingrediente que lo hace único: bacon premium.",
+        "img": "../img/ham-bacon.jpg"
+    },
+    {
+        "nombre": "Hamburguesa Cuadruple",
+        "precio": 600,
+        "descripcion": "CUATRO medallones de carne 100% vacuna, inigualable pan con semillas de sésamo, cuatro fetas de nuestro exclusivo Queso Cheddar, cebolla, lechuga y tomate frescos. Sumado a estos ingredientes la única e inigualable Salsa Sazón.",
+        "img": "../img/ham-cuadruple.jpg"
+    }
+]
