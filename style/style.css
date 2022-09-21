@@ -1,0 +1,217 @@
+@import url("https://fonts.googleapis.com/css2?family=Prompt:wght@300&display=swap");
+* {
+    margin: 0px;
+        padding: 0px;
+    box-sizing: border-box;
+    font-family: "Prompt", sans-serif;
+}
+
+/* Barra de navegacion */
+
+header .encabezado__barra {
+    background-color: #ffa500;
+}
+header .encabezado__barra div .barra__link--home {
+    font-size: 40px;
+    font-weight: 600;
+}
+header .encabezado__barra div div ul .barra__link {
+    color: #ff0000;
+    text-align: center;
+    margin-left: 150px;
+    font-size: 35px;
+    font-weight: 600;
+}
+
+/* Inicio */
+
+.main__index {
+    width: 100%;
+    background-image: url(../img/pizza.jpg);
+    background-position: center;
+    background-size: 15%;
+    background-repeat: round;
+}
+
+.section__combos {
+    background-color: #ff0000;
+    width: 100%;
+    min-height: 700px;
+    background-image: url(../img/blob-scene-haikei.svg);
+    background-position: center;
+    background-size: cover;
+}
+.section__combos div .section__combos--title {
+    color: #000000;
+    font-size: 40px;
+    margin-top: 20px;
+}
+.section__combos div .section__combos--title:hover {
+    color: #dfd6cc;
+}
+.section__combos div .section__card {
+    background-color: #ffa500;
+    margin-top: 60px;
+}
+.section__combos div .section__card img:hover {
+    transform: scale(0.9);
+    transition: all 1s;
+}
+
+/* Nosotros */
+
+.main__nosotros {
+    background-color: #ff0000;
+    width: 100%;
+    min-height: 400px;
+}
+.main__nosotros .main__nosotros--title {
+    padding-top: 50px;
+    color: #000000;
+    font-size: 40px;
+}
+.main__nosotros .main__nosotros--title:hover {
+    color: #dfd6cc;
+}
+.main__nosotros .main__nosotros--card {
+    background-color: #ff0000;
+    min-height: 400px;
+}
+.main__nosotros .main__nosotros--card div .nosotros__text {
+    background-image: url(../img/blob-scatter-haikei.svg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 30px;
+    font-size: 20px;
+}
+.main__nosotros .main__nosotros--card div .nosotros__text div {
+    color: #ff0000;
+}
+.main__nosotros .main__nosotros--card div .nosotros__text div p {
+    color: #000000;
+}
+.main__nosotros .main__nosotros--card div .nosotros__text div p span {
+    font-weight: 600;
+}
+
+.section__nosotros {
+    background-image: linear-gradient(#ff0000, #ffa500);
+    width: 100%;
+    min-height: 400px;
+}
+.section__nosotros div div .section__nosotros--img1, .section__nosotros div div .section__nosotros--img2 {
+    height: 100%;
+    width: 60%;
+}
+.section__nosotros div div .section__nosotros--img2:hover {
+    width: 65%;
+    transition: 2s;
+}
+
+/* Productos */
+
+.main__productos {
+    background-color: #ff0000;
+    width: 100%;
+    min-height: 300px;
+    background-image: linear-gradient(#ff0000, #ffa500);
+}
+.main__productos .main__productos--title {
+    color: #000000;
+}
+.main__productos .main__productos--title:hover {
+    color: #dfd6cc;
+}
+#botonProductos{
+    margin-left: 42%;
+}
+#botonCarrito{
+    margin-left: 2%;
+}
+
+/* Contacto */
+
+.main__contacto {
+    background-color: #ff0000;
+    width: 100%;
+    min-height: 800px;
+    background-image: url(../img/layered-waves-haikei.svg);
+    background-position: center;
+    background-size: cover;
+}
+.main__contacto .main__contacto--title {
+    color: #000000;
+    font-size: 40px;
+    margin: 30px;
+    text-align: center;
+}
+.main__contacto .main__contacto--title:hover {
+    color: #dfd6cc;
+}
+.main__contacto .main__contacto--form, .main__contacto .main__contacto--map {
+    background-color: #ffa500;
+    border-radius: 20px;
+}
+.main__contacto .main__contacto--form .main__contacto--subtitulo, .main__contacto .main__contacto--map .main__contacto--subtitulo, .main__contacto .main__contacto--form .main__contacto--subtitulo2, .main__contacto .main__contacto--map .main__contacto--subtitulo2 {
+    font-size: 25px;
+    font-weight: 600;
+    text-align: center;
+}
+.main__contacto .main__contacto--form .main__contacto--subtitulo2, .main__contacto .main__contacto--map .main__contacto--subtitulo2 {
+    margin: 20px;
+}
+.main__contacto .main__contacto--form label, .main__contacto .main__contacto--map label {
+    padding: 0;
+    margin: 0;
+    font-weight: 600;
+}
+.main__contacto .main__contacto--form input, .main__contacto .main__contacto--map input {
+    margin-bottom: 10px;
+}
+.main__contacto .main__contacto--form .main__contacto--checkbox, .main__contacto .main__contacto--map .main__contacto--checkbox {
+    margin-bottom: 5px;
+}
+.main__contacto .main__contacto--form .butt, .main__contacto .main__contacto--map .butt {
+    margin-left: 100px;
+    margin-top: 10px;
+}
+.main__contacto .main__contacto--map {
+    height: 600px;
+}
+
+/* Pie de pagina */
+
+footer ul li a .footer__icon {
+    font-size: 30px;
+    color: #808080;
+}
+footer ul li a .footer__icon--1:hover {
+    color: #4444c3;
+}
+footer ul li a .footer__icon--2:hover {
+    color: #57bcde;
+}
+footer ul li a .footer__icon--3:hover {
+    color: #e10ee1;
+}
+footer ul li a .footer__icon--4:hover {
+    color: #ff0000;
+}
+
+/* Responsive */
+
+@media (max-width: 992px) {
+    .main__index--carousel {
+    padding: 0;
+    width: fit-content;
+    }
+    header .encabezado__barra div div ul .barra__link {
+    text-align: center;
+    margin-left: 0px;
+    }
+}
+@media (min-width: 992px) and (max-width: 1400px) {
+    header .encabezado__barra div div ul .barra__link {
+    margin-left: 0px;
+    }
+}
