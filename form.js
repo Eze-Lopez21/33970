@@ -1,4 +1,4 @@
-//Definir elementos para el form
+//Definir elementos para mi formulario
 class Consulta {
     constructor(nombre, apellido, correo, direccion,comentarios) {
         this.nombre = nombre
